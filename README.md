@@ -8,9 +8,13 @@ A content-only package: no plugin, no C++ module. Copy the assets into your proj
 
 English | [Русская версия](README.ru.md)
 
-![Faucet stream](Docs/faucet-stream.png)
+![Faucet water jet animation](Docs/faucet.gif)
 
-![Close-up of the droplets](Docs/faucet-closeup.png)
+*The GIF is recorded in PIE at roughly 2× real-time speed.*
+
+| Whole scene | Droplets close-up |
+| --- | --- |
+| ![Faucet stream](Docs/faucet-stream.png) | ![Close-up of the droplets](Docs/faucet-closeup.png) |
 
 ## Requirements
 
@@ -144,5 +148,5 @@ Content/VFX/MI_Water.uasset       # default (blue, translucent)
 Content/VFX/MI_Water_Metallic.uasset
 Content/VFX/BP_ShowerHead.uasset  # faucet head actor
 Content/VFX/L_ShowerDemo.umap     # demo level
-Docs/                             # screenshots used in this README
+Docs/                             # screenshots and GIF used in this README
 ```

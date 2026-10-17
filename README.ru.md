@@ -8,9 +8,13 @@ VFX воды из-под крана для **Unreal Engine 5.8** — струя 
 
 [English version](README.md) | Русская версия
 
-![Струя](Docs/faucet-stream.png)
+![Анимация струи из-под крана](Docs/faucet.gif)
 
-![Капли крупным планом](Docs/faucet-closeup.png)
+*GIF записан в PIE примерно в 2× реальной скорости.*
+
+| Общий вид | Капли крупным планом |
+| --- | --- |
+| ![Струя](Docs/faucet-stream.png) | ![Капли крупным планом](Docs/faucet-closeup.png) |
 
 ## Требования
 
@@ -143,5 +147,5 @@ Content/VFX/MI_Water.uasset       # пресет по умолчанию (гол
 Content/VFX/MI_Water_Metallic.uasset
 Content/VFX/BP_ShowerHead.uasset  # актор излива
 Content/VFX/L_ShowerDemo.umap     # демо-уровень
-Docs/                             # скриншоты для этого README
+Docs/                             # скриншоты и GIF для этого README
 ```

@@ -8,4 +8,5 @@
 *.udk binary
 *.png binary
 *.jpg binary
+*.gif binary
 *.exr binary

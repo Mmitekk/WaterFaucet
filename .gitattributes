@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Unreal binary assets must never be normalized
+*.uasset binary
+*.umap binary
+*.upk binary
+*.udk binary
+*.png binary
+*.jpg binary
+*.exr binary
